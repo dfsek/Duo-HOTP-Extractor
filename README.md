@@ -15,7 +15,7 @@ Duo uses HOTP under the hood, it adds a layer of proprietary stuff over it. This
 
 Yes. The only online service this script makes contact with is Duo itself. You can easily audit the 32-line script yourself to verify this.
 
-## How
+## Usage
 
 **Requires:** `curl`, `jq`, `qrencode`
 
