@@ -17,6 +17,8 @@ Yes. The only online service this script makes contact with is Duo itself. You c
 
 ## How
 
+**Requires:** `curl`, `jq`, `qrencode`
+
 1. Add a device to Duo, choosing "Tablet"
 2. When Duo goves you a QR code, copy the image URL.
     > Recently, Duo has attempted to obscure the URL of the QR code image, you may have to inspect and select the element covering the image, and poke around for the URL
